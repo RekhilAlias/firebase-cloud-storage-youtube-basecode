@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <section class="contact-section">
+      <form class="contact">
+        <h2>Signup</h2>
+        <input
+          placeholder="Enter your name  "
+          class="name"
+          type="text"
+          id="name"
+          name="name"
+          required
+        />
+        <input
+          placeholder="Enter your email"
+          class="email"
+          type="email"
+          id="email"
+          name="email"
+          required
+        />
+        <button class="btn" type="submit">Sign Up</button>
+      </form>
+    </section>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
